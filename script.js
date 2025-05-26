@@ -39,6 +39,7 @@ async function getWeather(city) {
             weatherIcon.src = "images/wind.png";
         }
 
+        document.querySelector(".error").style.display = "none";
         document.querySelector(".weather").style.display = "block";
     }
 
